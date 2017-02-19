@@ -1,0 +1,81 @@
+body {
+	overflow-x:hidden;	
+}
+
+.has-img > img{
+	width: 71%;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.view-row {
+	border-bottom: 1px solid #E0DEDF;	
+	padding: 42px;
+}
+
+a.navbar-brand img{
+	height: 50px;
+}
+
+.navbar-brand {
+	padding: 0 !important;
+}
+
+.navbar-default {
+	background-color: #ffffff !important;
+	padding: 11px;
+}
+
+#main-banner h3{
+	margin-top: 42px;
+}
+
+#main {
+	margin-top: 48px;
+}
+
+.footer {
+	padding-top: 42px;
+	padding-bottom: 11px;
+	background-color: #202328;
+}
+
+.footer-item {
+	display: inline-block;
+	padding: 11px;
+	color: #efefef;
+}
+
+.map-embed {
+	margin-right: 42px;
+	margin-bottom: 42px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+    padding: 20px;
+    color: #7C7C7C;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+.home-heading {
+	padding-top: 42px;
+}
+
+#home-img {
+	position: relative;
+	right: 60px;
+}
+
+.jumbotron p {
+	padding-left: 42px;
+	padding-right: 42px;
+}
+
