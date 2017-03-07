@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <!-- define angular controller -->
@@ -22,14 +22,38 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="Home"></a>
+          <a class="navbar-brand" href="#home"><img src="images/logo.jpg" alt="Home"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
           <ul class="nav navbar-nav">
             <!--li class="first expanded beyonce"><a href="#about" id="main-menu-products">About</a></li-->
-            <li class="expanded"><a href="#services" id="main-menu-customers">Services</a></li>
-            <li class="expanded"><a href="#products" id="main-menu-customers">Products</a></li>
-            <li class="last expanded beyonce"><a href="#contact">Contact</a></li>
+            <li class="expanded dropdown active"><a href="#home">Home</a></li>
+            <li class="expanded dropdown">
+              <a href="#services" id="main-menu-services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <ul class="dropdown-menu" aria-labelledby="main-menu-services">
+                <li class="dropdown-item prc-service" id="prc-service-1">Vehicle fault diagnostics</li>
+                <li class="dropdown-item prc-service" id="prc-service-2">ECU Remapping and Economy tuning</li>
+                <li class="dropdown-item prc-service" id="prc-service-3">Exhaust system upgrade</li>
+                <li class="dropdown-item prc-service" id="prc-service-4">Intake Upgrade</li>
+                <li class="dropdown-item prc-service" id="prc-service-5">Engine upgrades</li>
+                <li class="dropdown-item prc-service" id="prc-service-6">Suspension upgrades</li>
+                <li class="dropdown-item prc-service" id="prc-service-7">Braking system</li>
+                <li class="dropdown-item prc-service" id="prc-service-8">Visual Upgrades</li>
+                <li class="dropdown-item prc-service" id="prc-service-9">Race & Rally Car preparation</li>
+                <li class="dropdown-item prc-service" id="prc-service-10">Off road preparation 4 X 4</li>
+                <li class="dropdown-item prc-service" id="prc-service-11">General Service</li>
+              </ul>
+            </li>
+            <li class="expanded dropdown">
+              <a href="#products" id="main-menu-products" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+              <ul class="dropdown-menu" aria-labelledby="main-menu-products">
+                <li class="dropdown-item prc-product" id="prc-product-1">Exhaust System</li>
+                <li class="dropdown-item prc-product" id="prc-product-2">Suspension Upgrades</li>
+                <li class="dropdown-item prc-product" id="prc-product-3">Stage 2 Clutch</li>
+                <li class="dropdown-item prc-product" id="prc-product-4">Turbo Kits</li>
+              </ul>
+            </li>
+            <li class="expanded dropdown"><a href="#contact">Contact</a></li>
 
           </ul>
         </div><!--/.nav-collapse -->

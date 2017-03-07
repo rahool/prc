@@ -6,7 +6,7 @@
 		$routeProvider
 
 			// route for the home page
-			.when('/', {
+			.when('/home', {
 				templateUrl : 'pages/home.html',
 				controller  : 'mainController'
 			})
@@ -51,7 +51,7 @@
 	});
 
 	prcApp.controller('productsController', function($scope) {
-		$scope.message = 'Our products are engineered as a direct replacement from the factory manifold. Outstation customers need not worry as they are of simple hassle-free bolt-on installation that can be fitted by anyone.';
+		$scope.message = '';
 	});
 
 	prcApp.controller('contactController', function($scope) {
