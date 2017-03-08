@@ -111,6 +111,8 @@ a.navbar-brand img{
 
 .dropdown-menu {
 	width: 260px !important;
+	background-color: #f6fffa !important;
+	border-bottom: 2px solid #0ea34a !important;
 }
 
 .dropdown-menu li {
@@ -129,16 +131,27 @@ a.navbar-brand img{
     background-color: #2e3192 !important;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #e4e4e4 !important;
+    background-color: #2e3192 !important;
+}
+
 .navbar-nav active {
     color: #fefefe !important;
     background-color: #2e3192 !important;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    background-color: #b3e2c2 !important;
+    background-color: #e8e9ff !important;
 }
 
 .navbar-default .navbar-nav>li>a:active {
     color: #fefefe !important;
     background-color: #2e3192 !important;
+}
+
+.footer-logo-band{
+	background-image: url('../images/logo_small.jpg');
+	box-shadow: inset 2px 2px 42px 0px rgba(0,0,0,0.75);
+	height: 42px;
 }
