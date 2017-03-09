@@ -3,6 +3,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.content {
+	padding-top: 21px !important;
+}
+
 .has-img > img{
 	width: 71%;
 	margin-left: auto;
