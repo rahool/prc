@@ -3,6 +3,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+	font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif !important;
+}
+
+p {
+	font-size: 1.2em;
+}
+
 .content {
 	padding-top: 21px !important;
 }
