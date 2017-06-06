@@ -34,6 +34,11 @@
 				templateUrl : 'pages/contact.html',
 				controller  : 'contactController'
 			})
+			// route for the dealers page
+			.when('/dealers', {
+				templateUrl : 'pages/dealers.html',
+				controller  : 'dealersController'
+			})
 			.otherwise({
 				redirectTo: '/home'
 			});
@@ -58,5 +63,9 @@
 	});
 
 	prcApp.controller('contactController', function($scope) {
+		$scope.message = '';
+	});	
+	
+	prcApp.controller('dealersController', function($scope) {
 		$scope.message = '';
 	});

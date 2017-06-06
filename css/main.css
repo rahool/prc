@@ -174,3 +174,9 @@ a.navbar-brand img{
     font-weight: bold;
     background-color: #fbfbfb;
 }
+
+.menu-title {
+	padding: 5px;
+	text-align: center;
+	background-color: #c8f5dc;
+}
